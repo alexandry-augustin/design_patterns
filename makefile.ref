@@ -1,0 +1,18 @@
+PROGRAM = bin/out
+INCLUDEDIRS = -I/usr/include -Iinclude
+DEBUGFLAGS = -g -O0
+CXXFLAGS = -DESRI_UNIX $(INCLUDEDIRS) $(DEBUGFLAGS)
+CXX = g++
+CXXSOURCES = $(wildcard src/*.cpp)
+CXXOBJECTS = $(CXXSOURCES:.cpp=.o)
+LDFLAGS = $(LIBDIRS) $(LIBS)
+
+all: $(PROGRAM)
+
+$(PROGRAM): $(CXXOBJECTS)
+	$(CXX) -o $@ $(CXXOBJECTS) $(LDFLAGS)
+run:
+	./$(PROGRAM)
+clean:
+	$(RM) $(CXXOBJECTS)
+	$(RM) $(PROGRAM)

@@ -1,0 +1,28 @@
+= Design Patterns
+:author: Alexandry Augustin
+:sectnums:
+:toc: preamble
+
+This repository contains my personal implementations of common design patterns. 
+
+== Motivation
+
+Design patterns are a set best practices used to solve common software design problems in a flexible, elegant, and ultimately reusable way. They can be applied immediately to design problems without wasting time rediscovering them.
+
+== Catalogue
+
+.Patterns
+[separator=;]
+,===
+include::./res/patterns.csv[]
+,===
+
+== License
+
+All source code is made available under the MIT license. 
+You can freely use and modify the code, without warranty, so long as you provide attribution to the authors. 
+See link:./LICENSE[LICENSE] for the full license text.
+
+== References
+
+. Gamma, Erich, Richard Helm, Ralph Johnson, Ralph E. Johnson, and John Vlissides. Design patterns: elements of reusable object-oriented software. Pearson Deutschland GmbH, 1995.
