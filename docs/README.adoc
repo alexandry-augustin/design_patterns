@@ -3,7 +3,7 @@
 :sectnums:
 :toc: preamble
 
-This repository contains my personal implementations of common design patterns. 
+This repository contains my personal implementations of commonly used design patterns. 
 
 == Motivation
 
@@ -14,7 +14,7 @@ Design patterns are a set best practices used to solve common software design pr
 .Patterns
 [separator=;]
 ,===
-include::./res/patterns.csv[]
+include::./res/catalogue.csv[]
 ,===
 
 == License
