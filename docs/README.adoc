@@ -1,21 +1,17 @@
-= Design Patterns
+= Software Design Patterns
 :author: Alexandry Augustin
-:sectnums:
-:toc: preamble
+// :sectnums:
+// :toc: preamble
 
-This repository contains my personal implementations of commonly used design patterns. 
+This repository contains my personal implementations of commonly used software design patterns. 
 
 == Motivation
 
-Design patterns are a set best practices used to solve common software design problems in a flexible, elegant, and ultimately reusable way. They can be applied immediately to design problems without wasting time rediscovering them.
+Software design patterns are a set of best practices used to solve common software design problems in a flexible, elegant, and ultimately reusable way. They can be applied immediately to design problems without wasting time rediscovering them.
 
 == Catalogue
 
-.Patterns
-[separator=;]
-,===
-include::./res/catalogue.csv[]
-,===
+include::./res/catalogue.adoc[]
 
 == License
 
